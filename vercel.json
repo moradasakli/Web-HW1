@@ -1,5 +1,41 @@
 {
-    "rewrites": [
-      { "source": "./app.js", "destination": "/app.js" }
-    ]
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "signin.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "register.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "contactus.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "exam.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "training.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "navbar.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/logo.png",
+      "use": "@vercel/static"
+    }
+  ]
+}
